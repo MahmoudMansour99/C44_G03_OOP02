@@ -33,5 +33,15 @@ namespace C44_G03_OOP02
 
         #endregion
 
+        #region Methods
+
+        public override string ToString()
+        {
+            return $"{x}. {y}";
+            ;
+        } 
+
+        #endregion
+
     }
 }
