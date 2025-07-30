@@ -6,6 +6,7 @@ namespace C44_G03_OOP02
     {
         static void Main(string[] args)
         {
+Assignment
             #region 1.	Define a struct "Person" with properties "Name" and "Age". Create an array of three "Person" objects and populate it with data. Then, write a C# program to display the details of all the persons in the array.
 
             //Person[] person = new Person[3];
@@ -19,9 +20,62 @@ namespace C44_G03_OOP02
             //    Console.WriteLine($"Name: {person[i].Name}, Age: {person[i].Age}");
             //}
 
+            #region Struct
+            #region Example 01
+            //Point P01;
+            //P01 = new Point(15);
 
+            //Console.WriteLine(P01.x);
+            //Console.WriteLine(P01.y);
+            #endregion
+
+            #region Example 02
+
+            //Point P01 = new Point(10, 20);
+
+            //Console.WriteLine(P01.x);
+            //Console.WriteLine(P01.y);
+
+            //Point P02 = new Point(30, 40);
+
+            //Console.WriteLine(P02.x);
+            //Console.WriteLine(P02.y);
+
+            //P02 = P01;
+
+            //Console.WriteLine(P02.x);
+            //Console.WriteLine(P02.y);
+
+            //Console.WriteLine(P01);
+            //Console.WriteLine(P01.ToString());
 
             #endregion
+
+            #endregion
+
+            #region OOP Pillars
+
+            #endregion
+
+            #region Encapsulation
+
+            //Employee employee = new Employee(10, "Ahmed", 9000);
+
+            ////employee.Id = 10; // Set Id  direct by attr
+            ////Console.WriteLine(employee.Id); // get Id direct by attr
+
+            ////employee.SetName("Ahmed");
+            ////Console.WriteLine(employee.GetName());
+ master
+
+            ////employee.Salary = 9000;
+            ////Console.WriteLine(employee.Salary);
+
+            //employee.Age = 10;
+            //Console.WriteLine(employee.Age);
+
+            #endregion
+ Assignment
             #region 2.	Create a struct called "Point" to represent a 2D point with properties "X" and   "Y". Write a C# program that takes two points as input from the user and calculates the distance between them.
 
             //Console.WriteLine("Enter coordinates of the first point:");
@@ -89,6 +143,31 @@ namespace C44_G03_OOP02
 
             Console.Clear();
             rectangle.DisplayInfo();
+
+
+            #region Indexer
+
+            //PhoneNoteBook phoneNoteBook = new PhoneNoteBook(3);
+
+            //phoneNoteBook.AddPerson(0, "Ahmed", 123);
+            //phoneNoteBook.AddPerson(1, "Mohamed", 456);
+            //phoneNoteBook.AddPerson(2, "Omar", 789);
+
+            ////Console.WriteLine(phoneNoteBook.GetNumber("Mohamed"));
+
+            ////phoneNoteBook.SetNumber("Mohamed", 555);
+
+            ////Console.WriteLine(phoneNoteBook.GetNumber("Mohamed"));
+
+            ////phoneNoteBook["Ahmed"] = 555;
+            ////Console.WriteLine(phoneNoteBook["Ahmed"]);
+
+            //for (int i = 0; i < phoneNoteBook.Size; i++)
+            //{
+            //    Console.WriteLine(phoneNoteBook[i]);
+            //}
+
+ master
 
             #endregion
 
