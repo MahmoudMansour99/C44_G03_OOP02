@@ -51,33 +51,44 @@ namespace C44_G03_OOP02
             #endregion
             #region 3.	Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
 
-            Person[] people = new Person[3];
+            //Person[] people = new Person[3];
 
-            for (int i = 0; i < people.Length; i++)
-            {
-                Console.WriteLine($"Enter details for person #{i + 1}:");
+            //for (int i = 0; i < people.Length; i++)
+            //{
+            //    Console.WriteLine($"Enter details for person #{i + 1}:");
 
-                Console.Write("Name: ");
-                string name = Console.ReadLine();
+            //    Console.Write("Name: ");
+            //    string name = Console.ReadLine();
 
-                Console.Write("Age: ");
-                int.TryParse(Console.ReadLine(), out int age);
+            //    Console.Write("Age: ");
+            //    int.TryParse(Console.ReadLine(), out int age);
 
-                people[i] = new Person(name, age);
-            }
+            //    people[i] = new Person(name, age);
+            //}
 
-            Person oldest = people[0];
+            //Person oldest = people[0];
 
-            for (int i = 1; i < people.Length; i++)
-            {
-                if (people[i].Age > oldest.Age)
-                {
-                    oldest = people[i];
-                }
-            }
+            //for (int i = 1; i < people.Length; i++)
+            //{
+            //    if (people[i].Age > oldest.Age)
+            //    {
+            //        oldest = people[i];
+            //    }
+            //}
+
+            //Console.Clear();
+            //Console.WriteLine($"\nThe oldest person is: {oldest.Name}, Age: {oldest.Age}");
+
+            #endregion
+            #region 4.Create a struct named Rectangle that represents a rectangle with the following fields: width (type: double) - height (type: double) - Implement encapsulation by making the fields private and provide public properties access and modify these values. Ensure the following conditions are met: The width and height should not be negative. If a negative value is provided, the setter should not update the field and should instead print an error message. Implement a public read-only property Area that calculates and returns the area of the rectangle (Area = width * height). Implement a method DisplayInfo that prints the rectangle's dimensions and area. Write a program to demonstrate the usage of this struct by creating an instance, setting values via properties, and displaying the area.
+
+            Rectangle rectangle = new Rectangle(5, 10);
+
+            rectangle.Width = 8;
+            rectangle.Height = 12;
 
             Console.Clear();
-            Console.WriteLine($"\nThe oldest person is: {oldest.Name}, Age: {oldest.Age}");
+            rectangle.DisplayInfo();
 
             #endregion
         }
