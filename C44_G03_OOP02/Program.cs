@@ -91,6 +91,7 @@ namespace C44_G03_OOP02
             rectangle.DisplayInfo();
 
             #endregion
+
         }
     }
 }
