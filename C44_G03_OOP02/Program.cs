@@ -45,19 +45,44 @@ namespace C44_G03_OOP02
 
             #region Encapsulation
 
-            Employee employee = new Employee(10, "Ahmed", 9000);
+            //Employee employee = new Employee(10, "Ahmed", 9000);
 
-            //employee.Id = 10; // Set Id  direct by attr
-            //Console.WriteLine(employee.Id); // get Id direct by attr
+            ////employee.Id = 10; // Set Id  direct by attr
+            ////Console.WriteLine(employee.Id); // get Id direct by attr
 
-            //employee.SetName("Ahmed");
-            //Console.WriteLine(employee.GetName());
+            ////employee.SetName("Ahmed");
+            ////Console.WriteLine(employee.GetName());
 
-            //employee.Salary = 9000;
-            //Console.WriteLine(employee.Salary);
+            ////employee.Salary = 9000;
+            ////Console.WriteLine(employee.Salary);
 
-            employee.Age = 10;
-            Console.WriteLine(employee.Age);
+            //employee.Age = 10;
+            //Console.WriteLine(employee.Age);
+
+            #endregion
+
+            #region Indexer
+
+            //PhoneNoteBook phoneNoteBook = new PhoneNoteBook(3);
+
+            //phoneNoteBook.AddPerson(0, "Ahmed", 123);
+            //phoneNoteBook.AddPerson(1, "Mohamed", 456);
+            //phoneNoteBook.AddPerson(2, "Omar", 789);
+
+            ////Console.WriteLine(phoneNoteBook.GetNumber("Mohamed"));
+
+            ////phoneNoteBook.SetNumber("Mohamed", 555);
+
+            ////Console.WriteLine(phoneNoteBook.GetNumber("Mohamed"));
+
+            ////phoneNoteBook["Ahmed"] = 555;
+            ////Console.WriteLine(phoneNoteBook["Ahmed"]);
+
+            //for (int i = 0; i < phoneNoteBook.Size; i++)
+            //{
+            //    Console.WriteLine(phoneNoteBook[i]);
+            //}
+
 
             #endregion
 
