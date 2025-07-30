@@ -1,4 +1,6 @@
-﻿namespace C44_G03_OOP02
+﻿using C44_G03_OOP02.Encapsulation;
+
+namespace C44_G03_OOP02
 {
     internal class Program
     {
@@ -38,6 +40,24 @@
             #endregion
 
             #region OOP Pillars
+
+            #endregion
+
+            #region Encapsulation
+
+            Employee employee = new Employee(10, "Ahmed", 9000);
+
+            //employee.Id = 10; // Set Id  direct by attr
+            //Console.WriteLine(employee.Id); // get Id direct by attr
+
+            //employee.SetName("Ahmed");
+            //Console.WriteLine(employee.GetName());
+
+            //employee.Salary = 9000;
+            //Console.WriteLine(employee.Salary);
+
+            employee.Age = 10;
+            Console.WriteLine(employee.Age);
 
             #endregion
 
